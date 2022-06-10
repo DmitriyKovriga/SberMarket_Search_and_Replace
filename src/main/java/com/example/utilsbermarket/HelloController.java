@@ -22,6 +22,7 @@ public class HelloController {
     public TextField numberOfSecondStroke;
     //Ссылка значение из поля ввода "Number of last stroke"
     public String numberOfSecondStrokeJ;
+    //Ссылка на лог
     public Label logLabel;
 
 
