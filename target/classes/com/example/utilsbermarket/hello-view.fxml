@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.utilsbermarket.HelloController">
+   <padding>
+      <Insets left="15.0" right="15.0" top="15.0" />
+   </padding>
+   <HBox>
+      <Button mnemonicParsing="false" onAction="#startApp" text="Start" />
+      <Label text="Utility search and Replace Sber Market">
+         <HBox.margin>
+            <Insets left="10.0" top="5.0" />
+         </HBox.margin>
+      </Label>
+   </HBox>
+   <TextField fx:id="docLink" promptText="Write Google doc link....">
+      <VBox.margin>
+         <Insets top="20.0" />
+      </VBox.margin>
+   </TextField>
+   <HBox>
+      <Label alignment="BASELINE_LEFT" text="Valide link false">
+         <HBox.margin>
+            <Insets left="10.0" top="10.0" />
+         </HBox.margin>
+      </Label>
+   </HBox>
+   <TextField fx:id="numberOfFirstStroke" alignment="TOP_LEFT" promptText="Number of first stroke...">
+      <VBox.margin>
+         <Insets top="40.0" />
+      </VBox.margin>
+   </TextField>
+   <TextField fx:id="numberOfSecondStroke" alignment="TOP_LEFT" promptText="Number of second stroke...">
+      <VBox.margin>
+         <Insets top="20.0" />
+      </VBox.margin>
+   </TextField>
+   <Label fx:id="logLabel" text="#setTextLog">
+      <VBox.margin>
+         <Insets bottom="20.0" left="10.0" top="20.0" />
+      </VBox.margin></Label>
+</VBox>
